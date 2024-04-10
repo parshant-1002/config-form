@@ -1,0 +1,12 @@
+{
+  "app_title": "리액트 보일러플레이트",
+  "Name": "이름",
+  "Email": "이메일",
+  "Password": "암호",
+  "Phone_Number": "전화번호",
+  "Submit": "제출",
+  "password_validation_msg": "비밀번호는 8자 이상이어야 하며 대문자, 소문자, 숫자, 특수문자를 각각 하나씩 포함해야 합니다.",
+  "isRequired": "필수입니다",
+  "Invalid": "유효하지 않은",
+  "dob": "생일"
+}

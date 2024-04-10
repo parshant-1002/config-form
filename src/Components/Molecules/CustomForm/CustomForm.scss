@@ -1,0 +1,97 @@
+.custom-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    /* Light gray background */
+    border: 1px solid #ddd;
+    /* Light gray border */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.form-input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+    /* Increase font size */
+}
+
+.form-input.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    left: 10px;
+    /* Positioning the error message relative to the input field */
+    word-wrap: break-word;
+    /* Allowing long words to break and wrap onto the next line */
+}
+
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    /* Increase font size */
+    margin-top: 10px;
+    /* Add some top margin */
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the password field container */
+.password-field {
+    position: relative;
+}
+
+/* Styles for the container that holds the eye icon and password field */
+.password-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for the eye icon */
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    /* Adjust this value to position the eye icon as desired */
+    cursor: pointer;
+}
+
+/* Styles for the password input field */
+
+.react-datepicker__current-month,
+.react-datepicker__current-year {
+    display: none;
+}
+.light{
+    color: black
+}

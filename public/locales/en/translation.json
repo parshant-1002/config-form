@@ -1,0 +1,12 @@
+{
+  "app_title": "React Boilerplate",
+  "Name": "Name",
+  "Email": "Email",
+  "Password": "Password",
+  "Phone_Number": "Phone Number",
+  "Submit": "Submit",
+  "password_validation_msg": "Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character",
+  "isRequired": " is Required",
+  "Invalid": "Invalid",
+  "dob": "Date Of Birth"
+}
