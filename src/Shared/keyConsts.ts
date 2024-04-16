@@ -6,7 +6,9 @@ export const translateConsts = {
     dob: "dob",
     Phone_Number: "Phone_Number",
     Submit: "Submit",
+    Back: "Back",
     password_validation_msg: "password_validation_msg",
     isRequired: "isRequired",
     Invalid: "Invalid",
+    Next: "Next",
 }

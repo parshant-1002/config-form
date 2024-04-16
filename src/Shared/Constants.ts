@@ -42,12 +42,28 @@ const INPUT_TYPES = {
   TEXT: "text",
   NUMBER: "number",
   DATE: "date",
-  MOBILE: "tel",
+  MOBILE: "tel"
 };
 
 const REGEX = {
-  PASSWORD: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
+  PASSWORD:
+    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
   MOBILE: /^(\+\d{1,3}[- ]?)?\d{10}$/
-}
-export { ROUTES, WILDCARD_ROUTES, ROUTES_CONFIG, DATE_FORMATS, INPUT_TYPES, REGEX };
+};
 
+const FORM_STEPS = {
+  STEP_1: "1",
+  STEP_2: "2",
+  STEP_3: "3",
+  STEP_4: "4"
+};
+
+export {
+  ROUTES,
+  WILDCARD_ROUTES,
+  ROUTES_CONFIG,
+  DATE_FORMATS,
+  INPUT_TYPES,
+  REGEX,
+  FORM_STEPS
+};

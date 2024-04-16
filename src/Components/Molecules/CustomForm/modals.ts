@@ -5,7 +5,9 @@ export interface FieldModal {
   autoComplete: string;
 }
 
-export interface Schema extends Array<FieldModal> {}
+export interface Schema {
+  [key: string]: FieldModal[];
+}
 
 export interface LocaleObject {
   [key: string]: any;
